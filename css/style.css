@@ -1,0 +1,182 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.parallax.parallax-img img{
+  display:block;
+}
+
+/******************************
+           NAVBAR
+*************************************/
+.logo-img-home{
+  width: 200px;
+  padding-top: 5px;
+}
+.nav-bar-home{
+  background-color: rgba(0, 168, 89, 0.13) !important;
+}
+.nav-bar-li-home{
+  color: rgb(0, 168, 89);
+}
+
+
+
+/***********************************************
+          stores
+**************************************************/
+.parallax-stores-home{
+  min-height: 476px;
+}
+.card .card-image .card-title.cart-title-stores{
+  font-size:24px;
+}
+@media(min-width:320px){
+  .parallax-stores-home{
+    min-height: 600px;
+  }
+   .parallax-container .section.stores-section{
+    top:0;
+  }
+  .card .card-image .card-title.cart-title-stores{
+    font-size:12px;
+  }
+}
+@media(min-width:360px){
+  .parallax-stores-home{
+    min-height: 715px;
+  }
+   .parallax-container .section.stores-section{
+    top:0;
+  }
+  .card .card-image .card-title.cart-title-stores{
+    font-size:12px;
+  }
+}
+@media(min-width:360px){
+  .parallax-stores-home{
+    min-height: 879px;
+  }
+   .parallax-container .section.stores-section{
+    top:0;
+  }
+  .card .card-image .card-title.cart-title-stores{
+    font-size:14px;
+  }
+}
+@media(min-width:600px){
+  .parallax-stores-home{
+    min-height: 600px;
+  }
+   .parallax-container .section.stores-section{
+    top:0;
+  }
+  .card .card-image .card-title.cart-title-stores{
+    font-size:24px;
+  }
+}
+@media(min-width:992px){
+  .parallax-stores-home{
+    min-height: 476px;
+  }
+   .parallax-container .section.stores-section{
+    top:40%;
+  }
+  .card .card-image .card-title.cart-title-stores{
+    font-size:24px;
+  }
+}
+
+
+/**********************************************
+                sale
+*****************************************************/
+.margin-bottom-15{
+  margin-bottom: 15px;
+
+}
+.sale-h5{
+  color: #5fb49a;
+}
+@media(min-width:320px){
+  .parallax-container.sale-saction{
+    min-height: 476px;
+  }
+  .parallax-container .sale-saction-div{
+    top:0;
+  }
+}
+@media(min-width:900px){
+  .parallax-container.sale-saction{
+    min-height: 476px;
+  }
+  .parallax-container .sale-saction-div{
+    top:40%;
+  }
+
+}
+
+/****************************
+        contact
+*************************************/
+.contact-gmail{
+  color: #00a859;
+  font-weight: 600;
+}
+.contact-h5{
+  color: #001c33;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html ng-app='CicoRico'>
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/home-animation.css">
+    <link rel="stylesheet" href="css/styles.css"> -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>No Cookie Shopping List</title>
+  </head>
+  <body>
+
+    <nav class="white nav-bar-home" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo"><img class="logo-img-home" src="img/CicoRico-home.png"/></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#onama" class="nav-bar-li-home">O nama</a></li>
+            <li><a href="#prodavnice" class="nav-bar-li-home">Prodavnice</a></li>
+            <li><a href="#akcije" class="nav-bar-li-home">Akcije</a></li>
+            <li><a href="#kontakt" class="nav-bar-li-home">Kontakt</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#onama">O nama</a></li>
+            <li><a href="#prodavnice">Prodavnice</a></li>
+            <li><a href="#akcije">Akcije</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+      <div id="index-banner" class="parallax-container scrollspy">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            </div>s
+            <div class="row center">
+
+            </div>
+            <br><br>
+
+          </div>
+        </div>
+        <div class="parallax parallax-img"><img src="img/home-bck-5.jpg" alt="Unsplashed background img 1"></div>
+      </div>
+
+      <div class="container">
+        <div class="section scrollspy" id="onama">
+
+          <!--   Icon Section   -->
+          <about-us-directive></about-us-directive>
+        </div>
+      </div>
+
+
+        <div class="parallax-container valign-wrapper scrollspy parallax-stores-home" id="prodavnice">
+          <stores-directive></stores-directive>
+        </div>
+
+        <div class="container sale-saction scrollspy" id="akcije">
+          <sale-directive></sale-directive>
+        </div>
+
+
+        <div class="parallax-container valign-wrapper sale-saction">
+          <div class="section no-pad-bot sale-saction-div">
+            <div class="container">
+              <div class="row center">
+                <h5 class="header col s12 light contact-h5">Mozete nas kontatirati na <span class="contact-gmail">cicorico@gmail.com</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="parallax parallax-img"><img src="img/contact.jpg" alt="Unsplashed background img 3"></div>
+        </div>
+
+        <footer class="page-footer teal">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text">Settings</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Link 1</a></li>
+                  <li><a class="white-text" href="#!">Link 2</a></li>
+                  <li><a class="white-text" href="#!">Link 3</a></li>
+                  <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Link 1</a></li>
+                  <li><a class="white-text" href="#!">Link 2</a></li>
+                  <li><a class="white-text" href="#!">Link 3</a></li>
+                  <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+          </div>
+        </footer>
+
+
+    <ui-view></ui-view>
+
+
+    <!-- Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- <script src="js/materialize.js"></script>
+ <script src="js/init.js"></script> -->
+
+    <!-- <script src="js/bootstrap/bootstrap.min.js"></script> -->
+    <script src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.1/angular-materialize.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script> -->
+
+    <script src="js/app.module.js"></script>
+    <script src="js/routes.js"></script>
+
+    <script src="js/home/home.module.js"></script>
+    <script src="js/home/home.directive.js"></script>
+
+    <script src="js/stores/stores.module.js"></script>
+    <script src="js/stores/stores.directive.js"></script>
+
+    <script src="js/sale/sale.module.js"></script>
+    <script src="js/sale/sale.directive.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,107 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    background-color: white;
+    /*font-family: Corbel, Arial, sans-serif;*/
+    family-family:"Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.home-wrapper{
+  width:100%;
+  height:100%;
+
+  background-image: url('../img/chocolate.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+}
+h2.frame-5.green-color span{
+  color:#00a859;
+}
+
+/***************************************************************
+          Nav bar
+**********************************************************/
+.navbar-home{
+  background-color:transparent;
+  border:transparent;
+  padding-top: 5px;
+}
+.navbar-home .navbar-toggle {
+  border-color:#00a859;
+  background-color: #00a859;
+}
+.navbar-home .navbar-toggle:hover {
+  border-color:#00a859;
+  background-color: #00a859;
+}
+.navbar-inverse.navbar-home  .navbar-collapse {
+  border-color:#00a859;
+}
+.logo-simbol-nav{
+  width:193px;
+  height:50px;
+}
+.navbar-logo-img{
+  padding:0;
+}
+.home-navbar ul{
+  background-color:rgba(210,180,140,0.42);
+}
+.home-navbar .navbar-nav>li>a{
+  color:#00a859;
+  font-size:2em;
+  font-style: italic;
+  /*text-transform: uppercase;*/
+  font-weight: 600;
+}
+.home-navbar .navbar-nav>.active>a{
+  color:#00a859;
+  background-color:#f4f316;
+  border-radius: 10px;
+
+}
+.home-navbar .navbar-nav>.active>a:focus{
+  color:#00a859;
+  background-color:#f4f316;
+  border-radius: 10px;
+}
+.home-navbar .navbar-nav>li>a:hover{
+  color:#f4f316;
+  background-color:transparent;
+  border-radius: 10px;
+}
+.home-navbar .navbar-nav>.active>a:hover {
+    color:#f4f316;
+    background-color: #00a859;
+    border-radius: 10px;
+  }
+@media(min-width:320px) {
+  .home-navbar .navbar-nav{
+    float:left;
+  }
+  .home-navbar ul{
+    background-color:transparent;
+  }
+}
+@media (min-width: 768px){
+  .home-navbar .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+  .home-navbar ul{
+    background-color:rgba(210,180,140,0.42);
+  }
+}
+
+.logo-simbol-home{
+}
+
+
+
+}
