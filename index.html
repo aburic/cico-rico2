@@ -22,14 +22,14 @@
             <li><a href="#onama" class="nav-bar-li-home">O nama</a></li>
             <li><a href="#prodavnice" class="nav-bar-li-home">Prodavnice</a></li>
             <li><a href="#akcije" class="nav-bar-li-home">Akcije</a></li>
-            <li><a href="#kontakt" class="nav-bar-li-home">Kontakt</a></li>
+            <li><a href="#contact" class="nav-bar-li-home">Kontakt</a></li>
           </ul>
 
           <ul id="nav-mobile" class="side-nav">
             <li><a href="#onama">O nama</a></li>
             <li><a href="#prodavnice">Prodavnice</a></li>
             <li><a href="#akcije">Akcije</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#contact">Kontakt</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
@@ -70,15 +70,8 @@
         </div>
 
 
-        <div class="parallax-container valign-wrapper sale-saction">
-          <div class="section no-pad-bot sale-saction-div">
-            <div class="container">
-              <div class="row center">
-                <h5 class="header col s12 light contact-h5">Mozete nas kontatirati na <span class="contact-gmail">cicorico@gmail.com</span></h5>
-              </div>
-            </div>
-          </div>
-          <div class="parallax parallax-img"><img src="img/contact.jpg" alt="Unsplashed background img 3"></div>
+        <div class="parallax-container valign-wrapper sale-saction scrollspy" id="contact" >
+          <contact-component></contact-component>
         </div>
 
         <footer class="page-footer teal">
@@ -146,10 +139,15 @@
     <script src="js/home/home.directive.js"></script>
 
     <script src="js/stores/stores.module.js"></script>
-    <script src="js/stores/stores.directive.js"></script>
+    <script src="js/stores/stores.service.js"></script>
+    <script src="js/stores/stores.component.js"></script>
+
 
     <script src="js/sale/sale.module.js"></script>
     <script src="js/sale/sale.directive.js"></script>
+
+    <script src="js/contact/contact.module.js"></script>
+    <script src="js/contact/contact.component.js"></script>
 
 
   </body>
